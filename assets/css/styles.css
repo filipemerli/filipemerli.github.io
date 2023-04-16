@@ -162,7 +162,7 @@ img {
   align-items: center;
 }
 
-.nav__logo
+.nav__logo,
 .nav__toggle{
   color: var(--title-color);
   font-weight: var(--font-medium);
@@ -189,7 +189,6 @@ img {
     width: 100%;
     background-color: var(--body-color);
     padding: 2rem 1.5rem 4rem;
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem 1.5rem 0 0;
     transition: .3s;
   }
@@ -213,7 +212,7 @@ img {
   color: var(--first-color);
 }
 
-.nav__icon{
+.nav__icon{ 
   font-size: 1.2rem;
 }
 
