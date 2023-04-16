@@ -8,13 +8,13 @@ const navMenu = document.getElementById('nav-menu'),
 if(navToggle){
 	navToggle.addEventListener('click', () =>{
 		navMenu.classList.add('show-menu')
-	});
+	})
 } 
 
 /*===== MENU HIDDEN =====*/
 /* Validate if constant exists */
 if(navClose){
-	navClosen.addEventListener('click', () =>{
+	navClose.addEventListener('click', () =>{
 		navMenu.classList.remove('show-menu')
 	})
 }
@@ -22,7 +22,7 @@ if(navClose){
 /*==================== REMOVE MENU MOBILE ===========  =========*/
 const navLink = document.querySelectorAll('.nav__link')
 
-function linkAction() {
+function linkAction(){
 	const navMenu = document.getElementById('nav-menu')
 	navMenu.classList.remove('show-menu')
 }
